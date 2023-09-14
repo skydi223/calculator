@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>segitiga</title>
+    <style>
+        .segitiga-container{
+            background-color: lightblue;
+            color: azure;
+            width: 500px;
+            padding: 50px;
+            margin: auto;
+            border: 3px solid gray;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        button{
+            background-color: azure;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: gray;
+            color: azure;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="segitiga-container">
+        <h1>Segitiga</h1>
+        <p>Alas</p>
+        <input type="text" class="alas">
+        <p>tinggi</p>
+        <input type="text" class="tinggi"><br><br>
+        <button onclick="myFunction()" class="luas">calculate</button>
+    </div>
+    <script src="segitiga.js"></script>
+</body>
+</html>
